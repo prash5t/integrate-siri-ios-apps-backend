@@ -1,0 +1,22 @@
+# Create project structure
+mkdir village_pay_api
+cd village_pay_api
+
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment (Unix/macOS)
+source venv/bin/activate
+# OR for Windows
+# .\venv\Scripts\activate
+
+# Install dependencies
+pip install flask openai python-dotenv
+
+# Create project structure
+mkdir app
+mkdir app/config
+mkdir app/routes
+mkdir app/services
+mkdir app/utils
+mkdir tests 
